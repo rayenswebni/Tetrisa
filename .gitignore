@@ -1,0 +1,43 @@
+# Build output
+output/
+*.exe
+*.out
+*.app
+
+# Libraries (DLL files)
+lib/
+*.dll
+*.so
+*.dylib
+
+# Object files
+*.o
+*.obj
+
+# Compiled binaries
+*.bin
+*.elf
+
+# CMake build directory
+build/
+cmake-build-*/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.pdb
+*.ilk
+*.exp
+
+# Temporary files
+*.tmp
+*.log
